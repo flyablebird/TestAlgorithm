@@ -165,6 +165,7 @@
     <ClInclude Include="CountSort.h" />
     <ClInclude Include="heap.h" />
     <ClInclude Include="list.h" />
+    <ClInclude Include="listTest.h" />
     <ClInclude Include="listTest.hpp" />
     <ClInclude Include="mergeSort.h" />
     <ClInclude Include="queue.hpp" />

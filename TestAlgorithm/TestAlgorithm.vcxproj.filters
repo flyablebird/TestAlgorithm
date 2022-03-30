@@ -71,5 +71,8 @@
     <ClInclude Include="stackAndQueue.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="listTest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

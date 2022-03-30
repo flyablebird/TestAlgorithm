@@ -34,6 +34,11 @@ class SingleList
 public:
 	using node_type = SingleListNode<K, V>;
 
+	node_type * head()
+	{
+		return m_head;
+	}
+
 	void insert(node_type *pnode)
 	{
 		if (m_head)
@@ -43,9 +48,15 @@ public:
 		m_head = pnode;
 	}
 	//Ö»ÒÆ³ý±íÍ·
-	void remove()
+	node_type * remove()
 	{
-		m_head = m_head->m_next;
+		node_type *pRet{};
+		if (m_head)
+		{
+			pRet = m_head;
+			m_head = m_head->m_next;
+		}
+		return pRet;
 	}
 	bool remove(node_type *pnode)
 	{

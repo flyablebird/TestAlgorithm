@@ -25,6 +25,7 @@
 #include "stackAndQueue.hpp"
 #include "CircularDList.hpp"
 #include "SingleList.hpp"
+#include "listTest.h"
 
 
 
@@ -244,7 +245,9 @@ private:
 int main()
 {
 	{
-
+		Lists::Stack<int> s;
+		s.push(1);
+		s.print();
 	}
     
 }
