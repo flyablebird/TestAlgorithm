@@ -1,0 +1,10 @@
+Debug/
+X64/
+X86/
+
+*~
+*.swp
+
+TestAlgorithm/Debug/
+.vs/
+TestAlgorithm/*.user
